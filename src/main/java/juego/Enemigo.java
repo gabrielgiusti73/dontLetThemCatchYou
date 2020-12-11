@@ -26,7 +26,7 @@ public class Enemigo {
 		if (inicialX <= -100) {
 			Juego.puntos++;
 			inicialX = 1300;
-			if (Juego.puntos == 3 | Juego.puntos == 6 | Juego.puntos == 9 | Juego.puntos == 12) {
+			if (Juego.puntos == 2 | Juego.puntos == 4 | Juego.puntos == 7 | Juego.puntos == 9) {
 				auxiliarX += -2;
 				Juego.nivel++;
 			}
